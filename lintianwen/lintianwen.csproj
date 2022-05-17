@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F01BE571-D7AD-439C-BE1B-C4E1FEB9F3DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>lintianwen</RootNamespace>
+    <AssemblyName>lintianwen</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="ESRI.ArcGIS.3DAnalyst, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.ADF, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86" />
+    <Reference Include="ESRI.ArcGIS.AxControls, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.Carto, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Controls, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesFile, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesGDB, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesRaster, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Display, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geodatabase, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geometry, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geoprocessor, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.GlobeCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Output, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.System">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.SystemUI, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Version" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\attributeEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attributes\attributeEditForm.Designer.cs">
+      <DependentUpon>attributeEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attributes\attributesViewingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attributes\attributesViewingForm.Designer.cs">
+      <DependentUpon>attributesViewingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attributes\EditAtrributeToolClass.cs" />
+    <Compile Include="Attributes\EditVertexClass.cs" />
+    <Compile Include="Attributes\SaveEditCommandClass.cs" />
+    <Compile Include="Attributes\StopEditCommandClass.cs" />
+    <Compile Include="Bookmark\AddBookmarkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bookmark\AddBookmarkForm.Designer.cs">
+      <DependentUpon>AddBookmarkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bookmark\bookmarkManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bookmark\bookmarkManagerForm.Designer.cs">
+      <DependentUpon>bookmarkManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cartography\dotDensityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cartography\dotDensityForm.Designer.cs">
+      <DependentUpon>dotDensityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cartography\EnumMapSurroundType.cs" />
+    <Compile Include="Cartography\symbolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cartography\symbolForm.designer.cs">
+      <DependentUpon>symbolForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cartography\graduatedcolorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cartography\graduatedcolorsForm.Designer.cs">
+      <DependentUpon>graduatedcolorsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cartography\graduatedSymbolsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cartography\graduatedSymbolsForm.Designer.cs">
+      <DependentUpon>graduatedSymbolsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cartography\proportionalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cartography\proportionalForm.Designer.cs">
+      <DependentUpon>proportionalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cartography\symSingleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cartography\symSingleForm.Designer.cs">
+      <DependentUpon>symSingleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cartography\uniqueValueDualFields.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cartography\uniqueValueDualFields.Designer.cs">
+      <DependentUpon>uniqueValueDualFields.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cartography\uniqueValueRenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cartography\uniqueValueRenForm.Designer.cs">
+      <DependentUpon>uniqueValueRenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Labeling\textElementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Labeling\textElementForm.designer.cs">
+      <DependentUpon>textElementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MapAlgo.cs" />
+    <Compile Include="Measure\measureResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Measure\measureResultForm.Designer.cs">
+      <DependentUpon>measureResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attributes\attributesStatisticForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attributes\attributesStatisticForm.Designer.cs">
+      <DependentUpon>attributesStatisticForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Selection\selectByAttributesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Selection\selectByAttributesForm.Designer.cs">
+      <DependentUpon>selectByAttributesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Selection\selectBySpatialRelationshipForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Selection\selectBySpatialRelationshipForm.Designer.cs">
+      <DependentUpon>selectBySpatialRelationshipForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loadingTxtDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loadingTxtDialogForm.Designer.cs">
+      <DependentUpon>loadingTxtDialogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseInitializer.cs" />
+    <Compile Include="LicenseInitializer.Designer.cs">
+      <DependentUpon>LicenseInitializer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Spatial Analysis\ToolBufferAnalysis.cs" />
+    <Compile Include="Spatial Analysis\ToolGetBoundary.cs" />
+    <Compile Include="Spatial Analysis\ToolGetNearFeature.cs" />
+    <Compile Include="SupportZMFeatureClass.cs" />
+    <Compile Include="CommonToolsAndCommands\CreateFeatureToolClass.cs" />
+    <Compile Include="CommonToolsAndCommands\DelFeatureCommandClass.cs" />
+    <Compile Include="CommonToolsAndCommands\EditVertexClass.cs" />
+    <Compile Include="CommonToolsAndCommands\MoveFeatureToolClass.cs" />
+    <Compile Include="CommonToolsAndCommands\RedoCommandClass.cs" />
+    <Compile Include="CommonToolsAndCommands\UndoCommandClass.cs" />
+    <EmbeddedResource Include="Attributes\attributeEditForm.resx">
+      <DependentUpon>attributeEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attributes\attributesViewingForm.resx">
+      <DependentUpon>attributesViewingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bookmark\AddBookmarkForm.resx">
+      <DependentUpon>AddBookmarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bookmark\bookmarkManagerForm.resx">
+      <DependentUpon>bookmarkManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cartography\dotDensityForm.resx">
+      <DependentUpon>dotDensityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cartography\symbolForm.resx">
+      <DependentUpon>symbolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cartography\graduatedcolorsForm.resx">
+      <DependentUpon>graduatedcolorsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cartography\graduatedSymbolsForm.resx">
+      <DependentUpon>graduatedSymbolsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cartography\proportionalForm.resx">
+      <DependentUpon>proportionalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cartography\symSingleForm.resx">
+      <DependentUpon>symSingleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cartography\uniqueValueDualFields.resx">
+      <DependentUpon>uniqueValueDualFields.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cartography\uniqueValueRenForm.resx">
+      <DependentUpon>uniqueValueRenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Labeling\textElementForm.resx">
+      <DependentUpon>textElementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Measure\measureResultForm.resx">
+      <DependentUpon>measureResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attributes\attributesStatisticForm.resx">
+      <DependentUpon>attributesStatisticForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Selection\selectByAttributesForm.resx">
+      <DependentUpon>selectByAttributesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Selection\selectBySpatialRelationshipForm.resx">
+      <DependentUpon>selectBySpatialRelationshipForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loadingTxtDialogForm.resx">
+      <DependentUpon>loadingTxtDialogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.en.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.zh-Hans.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.zh.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

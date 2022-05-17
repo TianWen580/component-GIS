@@ -1,0 +1,56 @@
+C:\Users\Administrator\Desktop\lintianwen\lintianwen\bin\Debug\lintianwen.exe.config
+C:\Users\Administrator\Desktop\lintianwen\lintianwen\bin\Debug\lintianwen.exe
+C:\Users\Administrator\Desktop\lintianwen\lintianwen\bin\Debug\lintianwen.pdb
+C:\Users\Administrator\Desktop\lintianwen\lintianwen\obj\Debug\lintianwen.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\lintianwen\lintianwen\obj\Debug\lintianwen.Form1.resources
+C:\Users\Administrator\Desktop\lintianwen\lintianwen\obj\Debug\lintianwen.Properties.Resources.resources
+C:\Users\Administrator\Desktop\lintianwen\lintianwen\obj\Debug\lintianwen.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\lintianwen\lintianwen\obj\Debug\lintianwen.exe
+C:\Users\Administrator\Desktop\lintianwen\lintianwen\obj\Debug\lintianwen.pdb
+\\Mac\Home\Desktop\项目局\c#\ArcGIS Engine\lintianwen\lintianwen\bin\Debug\lintianwen.exe.config
+\\Mac\Home\Desktop\项目局\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.exe
+\\Mac\Home\Desktop\项目局\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.pdb
+\\Mac\Home\Desktop\项目局\c#\ArcGIS Engine\lintianwen\lintianwen\bin\Debug\lintianwen.exe
+\\Mac\Home\Desktop\项目局\c#\ArcGIS Engine\lintianwen\lintianwen\bin\Debug\lintianwen.pdb
+\\Mac\Home\Desktop\项目局\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\项目局\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.mainForm.resources
+\\Mac\Home\Desktop\项目局\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Properties.Resources.resources
+\\Mac\Home\Desktop\项目局\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.csproj.GenerateResource.Cache
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\bin\Debug\lintianwen.exe.config
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.exe
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.pdb
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\bin\Debug\lintianwen.exe
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\bin\Debug\lintianwen.pdb
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.mainForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Properties.Resources.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.csproj.GenerateResource.Cache
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\bin\Debug\en\lintianwen.resources.dll
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\bin\Debug\zh-Hans\lintianwen.resources.dll
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\bin\Debug\zh\lintianwen.resources.dll
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.mainForm.en.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.mainForm.zh-Hans.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.mainForm.zh.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\en\lintianwen.resources.dll
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\zh-Hans\lintianwen.resources.dll
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\zh\lintianwen.resources.dll
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.loadingTxtDialogForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Bookmark.AddBookmarkForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Bookmark.bookmarkManagerForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Measure.measureResultForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Labeling.textElementForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Cartography.symSingleForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Selection.attributeEditForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Selection.attributesViewingForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Selection.attributesStatisticForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Selection.selectByAttributesForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Selection.selectBySpatialRelationshipForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Cartography.uniqueValueRenForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Cartography.uniqueValueDualFields.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Cartography.graduatedcolorsForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Cartography.dotDensityForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Cartography.graduatedSymbolsForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Cartography.proportionalForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\bin\Debug\ESRI.ArcGIS.ADF.dll
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\bin\Debug\ESRI.ArcGIS.ADF.xml
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.Cartography.symbolForm.resources
+\\Mac\Home\Desktop\PROJECTs\c#\ArcGIS Engine\lintianwen\lintianwen\obj\Debug\lintianwen.csprojResolveAssemblyReference.cache
